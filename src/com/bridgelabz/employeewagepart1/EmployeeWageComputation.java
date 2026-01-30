@@ -1,4 +1,4 @@
-package com.bridgelabz.employeewage;
+package com.bridgelabz.employeewagepart1;
 
 public class EmployeeWageComputation {
     public static int IS_FULL_TIME = 1;
@@ -13,7 +13,6 @@ public class EmployeeWageComputation {
             System.out.println("Employee is Absent");
         }
     }
-
     private static int getEmployeePresence() {
         return (int) (Math.random() * 2);
     }
